@@ -9,7 +9,9 @@ public class Robo extends UDPServer{
 	//Durch Ändern der Arrays können kick_off-Positionen und Spielertypen angegeben werden.
 	public String [] playerTypes={"keeper", "defense_l", "defense_r", "striker", "back", "back", "back", "back", "back", "back", "striker"};
 	public int playerPosition [][]={ {-40,0},{-30,+10},{-30,-10},{-10,0},{-20,-8},{-20,0},{-20,+8},{-20,+16},{-20,+24},{-20,+32},{-10,0}};
-
+	
+	public String blub = "Dieser Robo ist blöd. Nicht. :D";
+	
 	//Spiel-Informationen
 	public int goals_me=10;						//Eigene Tore
 	public int goals_them=0;					//Tore Gegner
