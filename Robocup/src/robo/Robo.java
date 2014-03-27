@@ -11,6 +11,7 @@ public class Robo extends UDPServer{
 	public int playerPosition [][]={ {-40,0},{-30,+10},{-30,-10},{-10,0},{-20,-8},{-20,0},{-20,+8},{-20,+16},{-20,+24},{-20,+32},{-10,0}};
 	
 	public String blub = "Dieser Robo ist blöd. Nicht. :D";
+	public String bla = "Test";
 	
 	//Spiel-Informationen
 	public int goals_me=10;						//Eigene Tore
